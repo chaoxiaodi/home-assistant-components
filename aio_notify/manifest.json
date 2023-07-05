@@ -1,0 +1,14 @@
+{
+  "domain": "aio_notify",
+  "name": "Aio Notify",
+  "config_flow": false,
+  "documentation": "https://bbs.hassbian.com/thread-12547-1-1.html",
+  "issue_tracker": "https://bbs.hassbian.com/thread-12547-1-1.html",
+  "requirements": [
+  ],
+  "dependencies": [],
+  "codeowners": [
+    "27hh", "Mdxin"
+  ],
+  "version": "v1.1"
+}

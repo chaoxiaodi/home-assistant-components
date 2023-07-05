@@ -1,0 +1,13 @@
+notify:
+  - platform: aio_notify
+    name: aionotify             # 实体ID  比如这个出来就是notify.ddrobot
+    dingtalk: # 钉钉群自定义机器人有发送频率限制 可以配置多个机器人 发送时随机选择一个机器人 
+      - access_token: access_token1
+        secret: secret1
+      - access_token: access_token2
+        secret: secret2
+    wework:
+      corpid: 'xxx'
+      agetnId: '100000x'
+      secret: 'xxxx'
+    isatall: true   # 是否圈所有人
